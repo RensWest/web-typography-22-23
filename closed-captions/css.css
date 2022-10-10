@@ -98,7 +98,8 @@ You probably want to change the styling.
 	font-family: "brenner slab";
 }
 
-.p1.on {
+.p5.on {
+	color: white;
 	
 }
 
@@ -115,9 +116,14 @@ Sounds.
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 #video-mask {
-	
+.sound5 #video-mask {
+	transform: translateX(100px);
+	animation: 2s ease-in-out;
 }
+
+/* .sound5 {
+transform: translateX(100px);
+} */
 
 
 /* **********************************************
@@ -130,7 +136,23 @@ body {
 	height: 100vh;
 	margin: 0;
 	justify-content: center;
+	background: linear-gradient(-45deg, black, #020024, #181721);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 #video-container {
 	margin: auto;
 }
