@@ -4,9 +4,9 @@ captions[2] = ['10.8','12.5'];
 	//And blood-black nothingness began to spin
 captions[3] = ['12.5','15.6'];
 captions[4] = ['17.369','20'];
-captions[5] = ['20.1','23.3'];
+captions[5] = ['20.1','23'];
 	//Fuck off, skin-job!
-captions[6] = ['23.3','25.2'];
+captions[6] = ['23','25.2'];
 	
 captions[7] = ['26.8','31.6'];
 captions[8] = ['32.7','33'];
