@@ -5,11 +5,14 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+#video-container {
+	position: relative;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	font-family: brenner;
 	color: white;
 }
 #closed-captions .on {
@@ -50,6 +53,21 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
+/* Tekst positioneren linksonder */
+.p0,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p7 {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+}
+
+/* 1e zin vormgeven */
 .p0 span {
 	opacity: 0;
 	font-family: "brenner mono";
@@ -116,14 +134,20 @@ You probably want to change the styling.
 	font-weight: 200;
 }
 
-.p1.on span {
-	font-family: "brenner sans";
-}
-
-.p2.on span {
+/* Voice 1 persoon vormgeven ROBOT */
+.voice1 {
 	font-family: "brenner mono";
 	font-weight: 200;
 	opacity: 1;
+	font-size: 1.5em;
+}
+
+/* Voice 2 persoon vormgeven HOOFDPERSOON */
+.voice2 {
+	font-family: "brenner sans";
+	font-weight: 200;
+	opacity: 1;
+	font-size: 1.5em;
 }
 
 /* **********************************************
@@ -134,12 +158,18 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
+
+/* Pulse alarm toevoegen */
 .sound1 #video-mask {
 	animation: rodepulse 2s ease-in-out;
 }
 
 .sound2 #video-mask {
 	animation: rodepulse2 2s ease-in-out;
+}
+
+.sound8 #video-mask {
+	animation: rodepulse3 2s ease-in-out;
 }
 
 @keyframes rodepulse {
@@ -186,6 +216,30 @@ Sounds.
 	   }
 	  }
 
+@keyframes rodepulse3 {
+		0% {
+		   -webkit-box-shadow: none;
+		   box-shadow: none;
+		}
+	   
+		10% {
+		   -webkit-box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000; 
+	   box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000;
+		}
+	   
+		90% {
+		   -webkit-box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000; 
+	   box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000;
+		}
+	   
+		100% {
+		   -webkit-box-shadow: none;
+		   box-shadow: none;
+		}
+	   }
+
+
+/* Scan maken */
 .sound3 #video-mask {
 	animation: scan 2s ease-in-out;
 }
@@ -207,10 +261,6 @@ Sounds.
 	animation: ontwijk 2s ease-in-out;
 }
 
-.p6.on {
-	animation: ontwijk 2s ease-in-out;
-}
-
 @keyframes ontwijk {
 	0% {
 		transform: translateX(0);
@@ -224,6 +274,40 @@ Sounds.
 		transform: translateX(0);
 	}
 }
+
+/* Skinjob */
+.p6.on {
+	animation: ontwijktekst 2s ease-in-out;
+	font-family: "brenner slab";
+	font-size: 1em;
+	font-weight: 800;
+	color: #C10000 !important;
+	-webkit-text-stroke: .5px white;
+	position: absolute;
+	top: 5em;
+	left: 30%;
+}
+
+@keyframes ontwijktekst {
+	0% {
+		transform: translateX(0);
+		opacity: .7;
+	}
+
+	50% {
+		transform: translateX(100px);
+	}
+
+	99% {
+		opacity: .7;
+	}
+	
+	100% {
+		transform: translateX(0);
+		opacity: 0;
+	}
+}
+
 
 
 
@@ -253,6 +337,57 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+.sound8 .noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/ruis.gif) repeat 0 0;
+    background-repeat: round;
+    opacity: 0;
+    visibility: visible;
+    z-index: -1;
+	animation: noise 43s;
+}
+
+@keyframes noise{
+	0% {
+		opacity: 0;
+	}
+
+	90% {
+		opacity: .3;
+	}
+
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.sound8 #video-mask {
+	animation: vergroten 43s;
+}
+
+@keyframes vergroten {
+	0% {
+		transform: scale(1);
+	}
+
+	99% {
+		transform: scale(1.2);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 
 #video-container {
 	margin: auto;
