@@ -1,3 +1,127 @@
+# Logboek Rens Westerveld
+
+Eerste ideeën en gevoel na het kijken van het filmpje:
+
+Scene 1
+donker, serieus - alarmen in de achtergrond
+
+Scene 2
+Beweging
+
+Scene 3
+Herhaling, vervelende “ring”, Ondervraging, leegte. STOP
+
+Scene 4
+Opnieuw scene 3, Onderzoek
+
+Wat wil ik doen?
+Naam + kleur per persoon
+Interlinked herhaling groter in scherm
+
+0:15 - 0:34 Gekke scan geluid visualiseren door toonhoogte te weergeven
+
+0:09 - 0:10 + 0:12 - 0:13 Alarm tekst (vergroten) + achtergrond video rood puls
+
+0:23 - 0:24 “fuck of skin job” in BOLD & vliegend door scherm & video player schuift mee met uitwijken en komt weer terug
+
+0:33 - 1:26 noise achtergrond + Robot icon + Rising noice tone die steeds groter wordt + ruis versnellen
+
+1:26 - 1:28 stilte (standaard achtergrond)
+
+1:28 - 2:13 hierboven opnieuw 
+
+2:13 - 2:15 rood gaat naar zwart
+
+
+
+# Uitgewerkingen 1:
+
+Emoji toegevoegd bij de personen:
+    Ik heb de stem over de speaker een robot emoji meegegeven omdat hij door een microfoon praat en bij mij overkomt als een robot.
+
+    De hoofpersoon heb ik een emoji van een blanke man met blond haar gegeven omdat de hoofdpersoon dit ook heeft.
+
+    Dit zorgt ervoor dat de kijker weet welke tekst bij wie hoort.
+
+Typografie gekoppeld aan persoon:
+    Ik heb het lettertype brenner gebruikt omdat ik wil dat de tekst er op elk scherm er hetzelfde uitziet en omdat daar font stijlen tussen zaten die beter aansluiten bij de personen in de film.
+
+    Ik heb ervoor gekozen om de man over de speaker ("voice 1") het font "Brenner mono" mee te geven omdat hij door een microfoon praat en bij mij overkomt als een robot en dit font mij het gevoel van een robot geeft.
+
+    Ik heb de hoofdpersoon ("voice 2") het font "Brenner Sans" gegeven omdat dit het meest neutrale font is die fijn is om te lezen en past bij een ondertiteling van een persoon.
+
+    Dan heb ik ook nog de tekst "fuck off skin-job" een ander font en kleur gegeven omdat hij iets negatiefs zegt. Hier paste voor mijn gevoel rood en het font "Brenner Slab" het beste bij door de dikte en wat "aggresievere" vormen.
+
+
+
+Alarm visueel weergegeven:
+    Rode box shadow om de video heen die pulseert alsof er een alarm afgaat.
+
+Noise achtergrond + video vergroten:
+    Ruis achter de video toegevoegd die erg irritant is en het geluid van de pieptoon visueel weegeeft en hetzelfde gevoel mee geeft.
+
+    Om deze scene intenser te maken heb ik de video ook vergroot zodat je er echt in wordt getrokken en zodat ik de pieptoon in 1 keer stil kan laten vallen.
+
+    Aan het einde voelt de stilte als een klap. De ruis en vergroting vallen ineens weg en er valt een last van je ogen af.
+
+Skinjob:
+    Tekst rood, gecentreerd en wat groter gemaakt met een overgang van opacity.
+
+    Beeld springt naar recht om het effect van het ontwijken van die man nog intenser te maken.
+
+
+
+# Feedback sessie 1
+
+Ruis en Beeld wat vergroot in de witte ruimte geeft de sfeer goed weer, maar moet worden gefinetuned op intensiteit.
+
+Opgevat bij andere mensen:
+- Animeer niet de betekenis van de woorden maar het gevoel.
+- Pas op dat je de intentie van woorden niet veranderd door het te groot of te klein te maken.
+- De tekst kan ook over de video zelf heen.
+- Let op bij “fuck off “skinjob".
+
+Wat wil ik uitwerken:
+- "skinjob" op lagere opacity over het scherm heen zetten bij de persoon die het zegt.
+- Fine tunen van ruis.
+- Scene in de witte kamer de tekst van de 2 personen links en rechts weergeven op het scherm.
+- Ruis ook toevoegen aan de 2e scene in de witte kamer.
+- Scene tussen 2 witte kamers het geluid van het vliegtuig(?) weergeven.
+- Testen of effecten niet intenser of minder moeten.
+
+# Uitwerkingen 2:
+Ruis gefinetuned:
+    Ik heb de ruis beter laten lopen met de intensiteit van het geluid waardoor het gevoel beter klopt met het echte geluid.
+
+Ruis toegevoegd aan 2e witte scene
+
+1e alarm harder gemaakt:
+    Het eerste alarm heeft nu meer box shadow omdat die harder is dan het 2e alarm.
+
+Tekst leesbaar gemaakt:
+    Ik wil overal witte tekst gebruiker zodat dit duidelijk en fijn is om te lezen voor de persoon die de film gaat kijken. Om dit leesbaar te maken heb ik een text shadow toegevoegd zodat het wit meer uit de achtergrond springt en het contrast groter wordt.
+
+Tekst tijdens gesprekken gesplitst:
+    Ik heb de 2 stemmen die je hoort link en rechts op het scherm neergezet omdat het echt een ondervraging is die vanaf 2 kanten komt.
+
+Emoji's bij alle ondertiteling toegevoegd en ruimte verbeterd:
+    Ik heb de ruimte tussen de emoji en eerste letter wat groter gemaakt omdat de eerste letter ervoorheen gelijk tegenaan zat. De emoji's lijken op de persoon die wat zeggen zodat de kijker gelijk weet bij wie welke tekst hoort. Omdat de tekst van "voice 4" een onbekend persoon is heb ik deze ook een onbekend persoon gemaakt.
+
+Scan toegevoegd:
+    Je hoort bij sound 3, 6 en 7 een geluid van een soort scanner. Ik heb uit de laatste scene de scan die je op het scherm ziet nagemaakt zodat dit geluid ook overkomt bij de kijker omdat die op die momenten niet te zien is, maar alleen te horen.
+
+2e witte scene:
+    Classes toegevoegd zodat ik deze tegelijk kan stylen.
+
+Tekst van "voice 4" vormgegeven
+    Dit klinkt voor mij als een persoon van "hogerop" waardoor het font ook "autoritair" over moet komen. Hierom heb ik gekozen voor "Brenner Serif".
+
+
+
+
+
+
+
 # Web Typography, 2020/2021
 
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
@@ -82,89 +206,3 @@ Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [cap
 
 Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
 
-# Logboek Rens Westerveld
-
-Eerste ideeën en gevoel na het kijken van het filmpje:
-
-Scene 1
-donker, serieus - alarmen in de achtergrond
-
-Scene 2
-Beweging
-
-Scene 3
-Herhaling, vervelende “ring”, Ondervraging, leegte. STOP
-
-Scene 4
-Opnieuw scene 3, Onderzoek
-
-Wat wil ik doen?
-Naam + kleur per persoon
-Interlinked herhaling groter in scherm
-
-0:15 - 0:34 Gekke scan geluid visualiseren door toonhoogte te weergeven
-
-0:09 - 0:10 + 0:12 - 0:13 Alarm tekst (vergroten) + achtergrond video rood puls
-
-0:23 - 0:24 “fuck of skin job” in BOLD & vliegend door scherm & video player schuift mee met uitwijken en komt weer terug
-
-0:33 - 1:26 noise achtergrond + Robot icon + Rising noice tone die steeds groter wordt + ruis versnellen
-
-1:26 - 1:28 stilte (standaard achtergrond)
-
-1:28 - 2:13 hierboven opnieuw 
-
-2:13 - 2:15 rood gaat naar zwart
-
-
-
-# Uitgewerkingen 1:
-
-Emoji toegevoegd bij de personen:
-    Ik heb de stem over de speaker een robot emoji meegegeven omdat hij door een microfoon praat en bij mij overkomt als een robot.
-
-    De hoofpersoon heb ik een emoji van een blanke man met blond haar gegeven omdat de hoofdpersoon dit ook heeft.
-
-    Dit zorgt ervoor dat de kijker weet welke tekst bij wie hoort.
-
-Typografie gekoppeld aan persoon:
-    Ik heb het lettertype brenner gebruikt omdat ik wil dat de tekst er op elk scherm er hetzelfde uitziet en omdat daar font stijlen tussen zaten die beter aansluiten bij de personen in de film.
-
-    Ik heb ervoor gekozen om de man over de speaker de font-family: brenner mono mee te geven omdat hij door een microfoon praat en bij mij overkomt als een robot.
-
-Alarm visueel weergegeven:
-    Rode box shadow om de video heen die pulseert alsof er een alarm afgaat.
-
-Noise achtergrond + video vergroten:
-    Ruis achter de video toegevoegd die erg irritant is en het geluid van de pieptoon visueel weegeeft en hetzelfde gevoel mee geeft.
-
-    Om deze scene intenser te maken heb ik de video ook vergroot zodat je er echt in wordt getrokken en zodat ik de pieptoon in 1 keer stil kan laten vallen.
-
-    Aan het einde voelt de stilte als een klap. De ruis en vergroting vallen ineens weg en er valt een last van je ogen af.
-
-Skinjob:
-    Tekst rood, gecentreerd en wat groter gemaakt met een overgang van opacity.
-
-    Beeld springt naar recht om het effect van het ontwijken van die man nog intenser te maken.
-
-
-
-# Feedback sessie 1
-
-Ruis en Beeld wat vergroot in de witte ruimte geeft de sfeer goed weer, maar moet worden gefinetuned op intensiteit.
-
-Opgevat bij andere mensen:
-- Animeer niet de betekenis van de woorden maar het gevoel.
-- Pas op dat je de intentie van woorden niet veranderd door het te groot of te klein te maken.
-- De tekst kan ook over de video zelf heen.
-- Let op bij “fuck off “skinjob".
-
-# Uitwerkingen 2:
-
-Wat wil ik uitwerken:
-- "skinjob" op lagere opacity over het scherm heen zetten bij de persoon die het zegt.
-- Fine tunen van ruis.
-- Scene in de witte kamer de tekst van de 2 personen links en rechts weergeven op het scherm.
-- Ruis ook toevoegen aan de 2e scene in de witte kamer.
-- Scene tussen 2 witte kamers het geluid van het vliegtuig(?) weergeven.
-- Testen of effecten niet intenser of minder moeten.

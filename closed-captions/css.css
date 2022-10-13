@@ -14,6 +14,7 @@ Feel free to adjust the defaults to your needs.
 	transition: .05s;
 	position: absolute;
 	color: white;
+	text-shadow: 3px 3px 3px black;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -22,27 +23,98 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
-.voice1 {
-	font-style:;
-}
-.voice2 {
-	font-weight:;
-}
 
 /*  */
-.body {
+body {
 	position: relative;
+	overflow: hidden;
 }
 
 .scan,
 .scan2,
-.scan3 {
-	width: 3em;
-	height: 40vh;
-	color: red;
+.scan3,
+.scan4 {
 	position: absolute;
+	background: linear-gradient(to right, #ffffff80 0%, #8cbeb8ba 50%, #8cbeb8 100%);
+	filter: blur(.3em);
+	height: 70vh;
+	width: 1.5em;
+	bottom: 50%;
+	transform: translateY(50%);
+	opacity: 0;
 	z-index: 1;
-	opacity: 1;
+}
+
+.sound3 .scan {
+	animation: scan 3s;
+}
+
+.sound6 .scan2 {
+	animation: scan2 3s;
+}
+
+.sound7 .scan {
+	animation: scan3 3s;
+}
+
+/* .sound8 .scan {
+	animation: scan4 3s;
+} */
+
+@keyframes scan {
+	0% {
+		left: 0%;
+		height: 70vh;
+		opacity: 1;
+	}
+	
+	100% {
+		left: 100%;
+		height: 70vh;
+		opacity: 0;
+	}		
+}
+
+@keyframes scan2 {
+	0% {
+		left: 0%;
+		height: 70vh;
+		opacity: 1;
+	}
+	
+	100% {
+		left: 100%;
+		height: 70vh;
+		opacity: 0;
+	}		
+}
+
+@keyframes scan3 {
+	0% {
+		left: 0%;
+		height: 70vh;
+		opacity: 1;
+	}
+	
+	100% {
+		left: 100%;
+		height: 70vh;
+		opacity: 0;
+	}		
+}
+
+@keyframes scan4 {
+	0% {
+		left: 0%;
+		height: 70vh;
+		opacity: 1;
+	}
+	
+	100% {
+		left: 100%;
+		height: 70vh;
+		opacity: 0;
+	}		
 }
 
 /* **********************************************
@@ -54,7 +126,7 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 
-/* Tekst positioneren linksonder */
+/* Tekst positioneren midden */
 .p0,
 .p1,
 .p2,
@@ -64,7 +136,163 @@ You probably want to change the styling.
 .p7 {
 	position: absolute;
 	bottom: 1em;
-	left: 1em;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+/* voice 1 links positioneren */
+.p8,
+.p10,
+.p11,
+.p13,
+.p14,
+.p16,
+.p17,
+.p19,
+.p21,
+.p22,
+.p24,
+.p25,
+.p27,
+.p28,
+.p30,
+.p32,
+.p33,
+.p35,
+.p36,
+.p38,
+.p40 {
+	position: absolute;
+	left: 5em;
+	top: 50%;
+	width: 30vw;
+}
+
+/* voice 2 rechts positioneren */
+.p9,
+.p12,
+.p15,
+.p18,
+.p20,
+.p23,
+.p26,
+.p29,
+.p31,
+.p34,
+.p37,
+.p39,
+.p42 {
+	position: absolute;
+	right: 5em;
+	top: 50%;
+	width: 30vw;
+	text-align: end;
+}
+
+.p41 {
+	position: absolute;
+	right: 5em;
+	top: 45%;
+}
+
+.p43 {
+	position: absolute;
+	right: 5em;
+	top: 55%;
+}
+
+.p44,
+.p45,
+.p46 {
+	position: absolute;
+	bottom: 1em;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: "brenner serif";
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+.p45 span:nth-of-type(2) {
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.p47 {
+	position: absolute;
+	bottom: 1em;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.p48,
+.p50,
+.p52,
+.p54,
+.p55,
+.p57,
+.p59,
+.p61,
+.p63,
+.p65,
+.p67,
+.p69,
+.p71,
+.p73,
+.p75,
+.p77 {
+	position: absolute;
+	left: 5em;
+	top: 50%;
+	width: 30vw;
+}
+
+.p57,
+.p59,
+.p61,
+.p63,
+.p65,
+.p67,
+.p69,
+.p71,
+.p73,
+.p75,
+.p77 {
+	font-size: 2em !important;
+}
+
+.p49,
+.p51,
+.p53,
+.p56,
+.p58,
+.p60,
+.p62,
+.p64,
+.p66,
+.p69,
+.p70,
+.p72,
+.p74,
+.p76,
+.p78 {
+	position: absolute;
+	right: 5em;
+	top: 50%;
+	width: 30vw;
+	text-align: end;
+}
+
+.p79 {
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 2em;
 }
 
 /* 1e zin vormgeven */
@@ -137,7 +365,7 @@ You probably want to change the styling.
 /* Voice 1 persoon vormgeven ROBOT */
 .voice1 {
 	font-family: "brenner mono";
-	font-weight: 200;
+	font-weight: 400;
 	opacity: 1;
 	font-size: 1.5em;
 }
@@ -145,7 +373,7 @@ You probably want to change the styling.
 /* Voice 2 persoon vormgeven HOOFDPERSOON */
 .voice2 {
 	font-family: "brenner sans";
-	font-weight: 200;
+	font-weight: 400;
 	opacity: 1;
 	font-size: 1.5em;
 }
@@ -168,10 +396,6 @@ Sounds.
 	animation: rodepulse2 2s ease-in-out;
 }
 
-.sound8 #video-mask {
-	animation: rodepulse3 2s ease-in-out;
-}
-
 @keyframes rodepulse {
 	0% {
 	   -webkit-box-shadow: none;
@@ -179,8 +403,8 @@ Sounds.
 	}
    
 	10% {
-	   -webkit-box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000; 
-   box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000;
+	   -webkit-box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 100px #C10000; 
+   box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 100px #C10000;
 	}
    
 	90% {
@@ -216,45 +440,6 @@ Sounds.
 	   }
 	  }
 
-@keyframes rodepulse3 {
-		0% {
-		   -webkit-box-shadow: none;
-		   box-shadow: none;
-		}
-	   
-		10% {
-		   -webkit-box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000; 
-	   box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000;
-		}
-	   
-		90% {
-		   -webkit-box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000; 
-	   box-shadow: -10px 0px 13px -7px #C10000, 10px 0px 13px -7px #C10000, 0px 0px 50px 30px #C10000;
-		}
-	   
-		100% {
-		   -webkit-box-shadow: none;
-		   box-shadow: none;
-		}
-	   }
-
-
-/* Scan maken */
-.sound3 #video-mask {
-	animation: scan 2s ease-in-out;
-}
-
-.sound6 #video-mask {
-	animation: scan2 2s ease-in-out;
-	background: #C10000;
-}
-
-.sound7 #video-mask {
-	animation: scan3 2s ease-in-out;
-}
-
-
-
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound5 #video-mask {
@@ -279,7 +464,7 @@ Sounds.
 .p6.on {
 	animation: ontwijktekst 2s ease-in-out;
 	font-family: "brenner slab";
-	font-size: 1em;
+	font-size: 1.3em;
 	font-weight: 800;
 	color: #C10000 !important;
 	-webkit-text-stroke: .5px white;
@@ -340,10 +525,10 @@ body {
 
 .sound8 .noise {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
+    top: -30vh;
+    left: -10vw;
+    width: 120vw;
+    height: 120vh;
     background: url(./assets/ruis.gif) repeat 0 0;
     background-repeat: round;
     opacity: 0;
@@ -357,12 +542,44 @@ body {
 		opacity: 0;
 	}
 
-	90% {
-		opacity: .3;
+	85% {
+		opacity: .1;
 	}
 
 	99% {
 		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.sound10 .noise {
+	position: absolute;
+    top: -30vh;
+    left: -10vw;
+    width: 120vw;
+    height: 120vh;
+    background: url(./assets/ruis.gif) repeat 0 0;
+    background-repeat: round;
+    opacity: 0;
+    visibility: visible;
+    z-index: -1;
+	animation: noise2 43s;
+}
+
+@keyframes noise2{
+	0% {
+		opacity: 0;
+	}
+
+	85% {
+		opacity: .1;
+	}
+
+	99% {
+		opacity: .1;
 	}
 
 	100% {
