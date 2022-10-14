@@ -119,7 +119,11 @@ Tekst van "voice 4" vormgegeven
 
 
 
+# Testen
 
+Ik ben mijn versie gaan testen bij mijn vader. Hij heeft eerste de video bekeken zonder geluid. Hier merkte hij de volgende dingen op: Heel onrustig bij de scene's in de witte kamer, opbouwende onrust die ineens weg is, fijn dat de ondertiteling in beeld zit in plaats van eronder waardoor je echt op de film gefocust blijft en tot slot dat de converstatie in de witte kamer echt heen en weer gaat.
+
+Daarna heeft hij de video bekeken met geluid en vond de aanpassingen die ik had gemaakt erg passen bij de geluiden die hij hoorde. Hij gaf als tip mee dat ik nog de snelheid waarmee de tekst wordt gelezen kan weergeven (zoals bij karaoke).
 
 
 # Web Typography, 2020/2021
