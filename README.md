@@ -90,6 +90,7 @@ Wat wil ik uitwerken:
 - Testen of effecten niet intenser of minder moeten.
 
 # Uitwerkingen 2:
+
 Ruis gefinetuned:
     Ik heb de ruis beter laten lopen met de intensiteit van het geluid waardoor het gevoel beter klopt met het echte geluid.
 
@@ -124,6 +125,14 @@ Tekst van "voice 4" vormgegeven
 Ik ben mijn versie gaan testen bij mijn vader. Hij heeft eerste de video bekeken zonder geluid. Hier merkte hij de volgende dingen op: Heel onrustig bij de scene's in de witte kamer, opbouwende onrust die ineens weg is, fijn dat de ondertiteling in beeld zit in plaats van eronder waardoor je echt op de film gefocust blijft en tot slot dat de converstatie in de witte kamer echt heen en weer gaat.
 
 Daarna heeft hij de video bekeken met geluid en vond de aanpassingen die ik had gemaakt erg passen bij de geluiden die hij hoorde. Hij gaf als tip mee dat ik nog de snelheid waarmee de tekst wordt gelezen kan weergeven (zoals bij karaoke).
+
+# Feedback sessie 2
+
+De ruis mag al eerder aanweziger zijn om die vervelende pieptoon na te bootsen.
+
+"fuck of skinjob" is onleesbaar.
+
+Geluid in het laatste gedeelte is anders dan de eerste. Ga hiermee nog aan de slag.
 
 
 # Web Typography, 2020/2021

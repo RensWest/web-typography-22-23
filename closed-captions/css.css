@@ -273,6 +273,7 @@ You probably want to change the styling.
 .p62,
 .p64,
 .p66,
+.p68,
 .p69,
 .p70,
 .p72,
@@ -309,7 +310,7 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s .4s;
 	margin-right: -.25em;
-	font-weight: 600;
+	font-weight: 200;
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
@@ -349,7 +350,7 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-weight: 200;
+	font-weight: 600;
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
@@ -558,11 +559,9 @@ body {
 .sound10 .noise {
 	position: absolute;
     top: -30vh;
-    left: -10vw;
-    width: 120vw;
-    height: 120vh;
-    background: url(./assets/ruis.gif) repeat 0 0;
-    background-repeat: round;
+    left: -20vw;
+    background: url(./assets/line-noise-loop.gif) repeat 0 0;
+    background-size: cover;
     opacity: 0;
     visibility: visible;
     z-index: -1;
@@ -574,16 +573,12 @@ body {
 		opacity: 0;
 	}
 
-	85% {
-		opacity: .1;
-	}
-
-	99% {
-		opacity: .1;
+	50% {
+		opacity: 1;
 	}
 
 	100% {
-		opacity: 0;
+		opacity: 1;
 	}
 }
 
@@ -622,3 +617,28 @@ iframe {
 	height: 53.33333333vw;
 	margin-top: -0.35vw;
 }
+
+.wegvallen {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	filter: blur(4px);
+}
+
+.sound11 .wegvallen {
+	z-index: -1;
+	animation: wegvallen 2.2s ease-in;
+}
+
+@keyframes wegvallen {
+	0% {
+		background-color:red;
+		opacity: .2;
+	  }
+	  100% {
+		background-color:red;
+		opacity: .2;
+	  }
+}
+
+
