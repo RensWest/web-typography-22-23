@@ -465,10 +465,9 @@ Sounds.
 .p6.on {
 	animation: ontwijktekst 2s ease-in-out;
 	font-family: "brenner slab";
-	font-size: 1.3em;
+	font-size: 1.4em;
 	font-weight: 800;
 	color: #C10000 !important;
-	-webkit-text-stroke: .5px white;
 	position: absolute;
 	top: 5em;
 	left: 30%;
@@ -573,12 +572,36 @@ body {
 		opacity: 0;
 	}
 
-	50% {
+	2% {
 		opacity: 1;
+	}
+	
+	10% {
+		opacity: .3;
+	}
+
+	20% {
+		opacity: .8;
+	}
+
+	35% {
+		opacity: .3;
+	}
+
+	50% {
+		opacity: .5;
+	}
+
+	80% {
+		opacity: .3;
+	}
+
+	95% {
+		opacity: .8;
 	}
 
 	100% {
-		opacity: 1;
+		opacity: 0;
 	}
 }
 
@@ -633,11 +656,11 @@ iframe {
 @keyframes wegvallen {
 	0% {
 		background-color:red;
-		opacity: .2;
+		opacity: .4;
 	  }
 	  100% {
 		background-color:red;
-		opacity: .2;
+		opacity: .4;
 	  }
 }
 
