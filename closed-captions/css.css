@@ -215,9 +215,9 @@ You probably want to change the styling.
 	font-size: 1.5em;
 }
 
-.p45 span:nth-of-type(2) {
+.p45 span:nth-of-type(3) {
 	font-weight: 600;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 
 .p47 {
@@ -261,7 +261,7 @@ You probably want to change the styling.
 .p73,
 .p75,
 .p77 {
-	font-size: 2em !important;
+	font-size: 2.5rem !important;
 }
 
 .p49,
@@ -294,6 +294,9 @@ You probably want to change the styling.
 	right: 0;
 	text-align: center;
 	font-size: 2em;
+	font-weight: bold;
+	color: #C10000 !important;
+	text-shadow: 1px 1px 3px black !important;
 }
 
 /* 1e zin vormgeven */
@@ -539,7 +542,7 @@ body {
 		opacity: 0;
 	}
 
-	85% {
+	80% {
 		opacity: .3;
 	}
 
@@ -638,7 +641,7 @@ iframe {
 	margin-top: -0.35vw;
 }
 
-.wegvallen {
+/* .wegvallen {
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
@@ -659,6 +662,6 @@ iframe {
 		background-color:red;
 		opacity: .4;
 	  }
-}
+} */
 
 

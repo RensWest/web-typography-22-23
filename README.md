@@ -35,7 +35,7 @@ Interlinked herhaling groter in scherm
 
 
 
-# Uitgewerkingen 1:
+# Uitwerkingen 1:
 
 Emoji toegevoegd bij de personen:
     Ik heb de stem over de speaker een robot emoji meegegeven omdat hij door een microfoon praat en bij mij overkomt als een robot.
@@ -145,11 +145,11 @@ Geluid in het laatste gedeelte is anders dan de eerste. Ga hiermee nog aan de sl
 
 
 
-# Uitwerkingen 2:
+# Uitwerkingen 3:
 
 Ik heb de ruis al eerder heftiger gemaakt.
 
-Ik heb de tekst van fuck of skinjob aangepast door de witte omlijning weg te halen, de opacity weer op 100% te zetten en de tekst .1em groter te maken.
+Ik heb de tekst van fuck of skinjob aangepast door de witte omlijning weg te halen, de opacity weer op 100% te zetten en de tekst .1em groter te maken zodat deze weer leesbaar is.
 
 Ik heb in de "2e scene" een andere achtergrond gebruikt dan de ruis die ik voorheen had. Je hoort een beetje spannende golvende geluiden en die heb ik erachter gezet waardoor je dat gevoel ook mee krijgt.
 
