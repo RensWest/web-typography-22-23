@@ -34,6 +34,7 @@ Interlinked herhaling groter in scherm
 
 
 
+
 # Uitgewerkingen 1:
 
 Emoji toegevoegd bij de personen:
@@ -71,6 +72,7 @@ Skinjob:
 
 
 
+
 # Feedback sessie 1
 
 Ruis en Beeld wat vergroot in de witte ruimte geeft de sfeer goed weer, maar moet worden gefinetuned op intensiteit.
@@ -88,6 +90,9 @@ Wat wil ik uitwerken:
 - Ruis ook toevoegen aan de 2e scene in de witte kamer.
 - Scene tussen 2 witte kamers het geluid van het vliegtuig(?) weergeven.
 - Testen of effecten niet intenser of minder moeten.
+
+
+
 
 # Uitwerkingen 2:
 
@@ -126,6 +131,9 @@ Ik ben mijn versie gaan testen bij mijn vader. Hij heeft eerste de video bekeken
 
 Daarna heeft hij de video bekeken met geluid en vond de aanpassingen die ik had gemaakt erg passen bij de geluiden die hij hoorde. Hij gaf als tip mee dat ik nog de snelheid waarmee de tekst wordt gelezen kan weergeven (zoals bij karaoke).
 
+
+
+
 # Feedback sessie 2
 
 De ruis mag al eerder aanweziger zijn om die vervelende pieptoon na te bootsen.
@@ -133,6 +141,21 @@ De ruis mag al eerder aanweziger zijn om die vervelende pieptoon na te bootsen.
 "fuck of skinjob" is onleesbaar.
 
 Geluid in het laatste gedeelte is anders dan de eerste. Ga hiermee nog aan de slag.
+
+
+
+
+# Uitwerkingen 2:
+
+Ik heb de ruis al eerder heftiger gemaakt.
+
+Ik heb de tekst van fuck of skinjob aangepast door de witte omlijning weg te halen, de opacity weer op 100% te zetten en de tekst .1em groter te maken.
+
+Ik heb in de "2e scene" een andere achtergrond gebruikt dan de ruis die ik voorheen had. Je hoort een beetje spannende golvende geluiden en die heb ik erachter gezet waardoor je dat gevoel ook mee krijgt.
+
+Ik heb de laatste zin vormgegeven. Ik ben eerst gaan testen met de achtergrond rood maken, maar daarmee krijg je een ander gevoel (alarm) dan wat de zin echt is, en dat is negatief een negatief gevoel. Ik heb hierom alleen de tekst rood gemaakt en iets groter.
+
+
 
 
 # Web Typography, 2020/2021
